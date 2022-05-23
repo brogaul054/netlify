@@ -1,0 +1,90 @@
+# Site settings
+title: Situs Judi MPO Slot Online Gacor Gampang Menang Hari Ini # site title
+description: >- # site description
+  QQSLOT228 merupakan situs judi MPO Slot Online Gacor Gampang Menang Hari ini menyediakan sedia mpo slot online mpo casino mpo sport dan mpo4d togel
+lang: id-ID # default lang
+timezone: Asia/Jakarta # set your timezone
+image: assets/img/ogp.jpg # This image used for Open Graph more info https://ogp.me/
+repo: # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Judi Online # author name
+  bio: >- # tell to the world
+    Situs Judi Online Terpercaya 
+  username: oliviamendes # general username
+  github: github_username # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: your-email@email.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
+
+# URL settings
+url: "https://judi-online.vercel.app" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
